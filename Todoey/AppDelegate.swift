@@ -1,9 +1,8 @@
 //
 //  AppDelegate.swift
-//  Todoey
+//  
 //
-//  Created by Angela Yu on 16/11/2017.
-//  Copyright © 2017 Angela Yu. All rights reserved.
+//  Created by Sergio Arizaga
 //
 
 import UIKit
