@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Favorite" representedClassName=".Favorite" syncable="YES" codeGenerationType="class">
+        <attribute name="genres" optional="YES" attributeType="String"/>
+        <attribute name="idMovie" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="imageOriginal" optional="YES" attributeType="String"/>
+        <attribute name="imdb" optional="YES" attributeType="String"/>
+        <attribute name="summary" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Favorite" positionX="-848" positionY="-1188" width="128" height="148"/>
+    </elements>
+</model>

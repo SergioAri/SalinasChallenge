@@ -1,0 +1,20 @@
+
+Explicar la arquitectura que utilizaste en tu proyecto y la razón por la que decidiste utilizarla
+
+Decidí utilizar una arquitectura MVC por que brinda la granularidad y distribución de archivos adecuada para proyectos/apps con una arquitectura de información y estructuras de datos relativamente simples como este. Se le puede dar seguimiento fácilmente a la lógica a través de la estructura de carpetas y archivos.
+
+
+Lista de las librerías externas que utilizaste, explicándo qué hacen y la razón por la que la elegiste
+No usé ninguna librería externa.
+
+
+¿Qué parte(s) de tu código pueden ser mejoradas si tuvieras más tiempo
+1- EL algoritmo de búsqueda para saber si el show seleccionado es un show favorito, ya sea desde la pantalla principal o desde la pantalla de detalle. Si la lista de favoritos creciera demasiado(varios miles) la solución propuesta no es la más óptima, sin embargo para efectos del caso de uso de esta app, por lo breve del tiempo para cumplir con los criterios de aceptación, la sencillez del algoritmo es suficiente para lograr el objetivo.
+
+2- Se podrían separar los métodos de manipulación de datos (cargar, crear, borrar) en la base, en otra clase dentro del Modelo e implementar un protocolo/delegado para poder desplegar las alertas de error y de éxito.
+
+¿Cuáles fueron los mayores problemas que encontraste en el desarrollo de la práctica y cómo los resolviste?
+Más que problema, no quedé muy conforme con la manera en la que se realiza la validación de show favorito, primero intenté hacerlo de la manera que creo es la más conveniente, implementando una búsqueda en el arreglo de diccionarios, resultado del fetch a la base de datos, usando un filtro pero no logré obtener la validación correcta y me estaba consumiendo más tiempo del que quería invertir en esa tarea así que consideré los pros y los contras de usar un algoritmo simple de búsqueda con un ciclo y decidí implementarlo de esa manera, ya que el caso de uso no representa un manejo de datos intensivo, no sería normal que el arreglo de favoritos creciera a miles o más elementos, que es el caso en el que el uso de un algoritmo de búsqueda simple representaría un problema.
+
+Si alguno de los puntos solicitados no los concluiste, menciona por qué. Si fuera por cuestión de tiempo, trata de mencionar qué estrategia llevarías a cabo para desarrollarlo
+
