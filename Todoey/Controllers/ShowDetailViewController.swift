@@ -95,7 +95,7 @@ class ShowDetailViewController: UIViewController {
         image.setImageFromUrl(ImageURL: showDict["imageOriginal"]!)
         let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.frame = view.bounds
+        blurEffectView.frame = imageBlur.bounds
         blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         imageBlur.addSubview(blurEffectView)
         if showDict["imdbURL"]! == "" || showDict["imdbURL"]! == "<null>" {
